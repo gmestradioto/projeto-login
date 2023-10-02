@@ -5,6 +5,12 @@
     Verde: #49a09d
     Lilás: #5f2c82
 
+    CORES Gege
+
+    Clara: #dedede
+    Lilás: #5f2c82
+
+
 */
 
 * {
@@ -15,7 +21,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #dedede;
     height: 100vh;
     width: 100vw;
 }
@@ -38,6 +44,9 @@ section#login {
     height: 500px;
     border-radius: 14px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
